@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 20, 2018, 3:39:46 PM
+    Author     : saficdoc
+*/
+
+.root {
+    -fx-arrow-fill: rgba(255, 255, 255, .90); 
+}
+.button-panel {
+    -fx-arc-width: 15px;
+    -fx-arc-height: 20px;
+    -fx-fill: rgba(0,0,0, .55);
+    -fx-stroke: rgba(255, 255, 255, .70);
+    -fx-stroke-width: 1;
+}
+.left-arrow {
+    -fx-fill: -fx-arrow-fill;
+}
+
+.right-arrow {
+    -fx-fill: -fx-arrow-fill;
+    -fx-translate-x: 40;
+}
